@@ -1,0 +1,75 @@
+$error-text-color:red;
+$form-color:#FAFAFA;
+$background-color:#EEEEEE;
+
+:root{
+    width: '100%';
+    height: '100%';
+    overflow: 'hidden';
+    background-color:$background-color;
+    
+}
+
+
+.filed-register{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    background-color:$form-color; 
+    //border: 10px solid red:
+    
+    
+}
+
+.filed-login{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 24px;
+    background-color: $form-color;
+}
+
+.copyright{
+    justify-content: center;
+    text-align: center;
+    margin: 2em;
+}
+
+
+.filled-date{
+    margin: 2em;
+}
+
+
+.filed-button-login{
+    margin: 2em;
+}
+
+
+.progress-bar{
+    margin: 2em;
+}
+
+.error-login{
+    color:$error-text-color;
+    text-align: left;    
+}
+
+.error-register{
+    color:$error-text-color;
+    
+
+    
+}
+
+.filed-button-register{
+}
+
+
+#reg-btn{
+    width:85%
+}
+
+#log-btn{
+    width: 100%;
+}
